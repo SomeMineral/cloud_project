@@ -84,11 +84,7 @@ variable "preshared_key" {
 variable "aws_prefix" {
     type = string
     description = "name prefix"
-<<<<<<< HEAD
     default = "Final"
-=======
-    default = "berry"
->>>>>>> b66ab7998d37aebe3d3ca438b5ec6b669aa9f44c
 }
 variable "aws_loc" {
     type = string
@@ -104,6 +100,11 @@ variable "aws_subnet_ip_block_1" {
     type = string
     description = "cidr_block for subnet1"
     default = "10.2.1.0/24"
+}
+variable "aws_subnet_ip_block_2" {
+    type = string
+    description = "cidr_block for subnet2"
+    default = "10.2.2.0/24"
 }
 variable "aws_customer_gw"{
     type = object({

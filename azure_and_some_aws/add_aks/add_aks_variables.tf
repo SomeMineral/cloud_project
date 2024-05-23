@@ -1,11 +1,7 @@
 variable "az_prefix" {
     type = string
     description = "name prefix"
-<<<<<<< HEAD
     default = "need"
-=======
-    default = "test"
->>>>>>> b66ab7998d37aebe3d3ca438b5ec6b669aa9f44c
 }
 
 variable "az_basic" {
